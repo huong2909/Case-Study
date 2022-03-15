@@ -12,6 +12,7 @@ function answer(id) {
             document.getElementById('status').innerHTML = 'Ahihi sai rồi đồ ngốc ạ!!! Hãy bắt đầu lại'
             document.getElementById('play').innerHTML = "Start game"
         }
+        document.getElementById('play').disabled  = false;
     }
     if (round === 2) {
         if (id === million2.check) {
@@ -25,6 +26,7 @@ function answer(id) {
             document.getElementById('status').innerHTML = 'Ahihi sai rồi đồ ngốc ạ!!! Hãy bắt đầu lại'
             document.getElementById('play').innerHTML = "Start game"
         }
+        document.getElementById('play').disabled  = false;
     }
     if (round === 3) {
         if (id === million3.check) {
@@ -38,6 +40,7 @@ function answer(id) {
             document.getElementById('status').innerHTML = 'Bạn trả lời sai !!!'
             document.getElementById('play').innerHTML = "Start game"
         }
+        document.getElementById('play').disabled  = false;
     }
     if (round === 4) {
         if (id === million4.check) {
@@ -51,6 +54,7 @@ function answer(id) {
             document.getElementById('status').innerHTML = 'Bạn trả lời sai !!!'
             document.getElementById('play').innerHTML = "Start game"
         }
+        document.getElementById('play').disabled  = false;
     }
     if (round === 5) {
         if (id === million5.check) {
@@ -64,6 +68,7 @@ function answer(id) {
             document.getElementById('status').innerHTML = 'Bạn trả lời sai !!!'
             document.getElementById('play').innerHTML = "Start game"
         }
+        document.getElementById('play').disabled  = false;
     }
     if (round === 6) {
         if (id === million6.check) {
@@ -77,6 +82,7 @@ function answer(id) {
             document.getElementById('status').innerHTML = 'Bạn trả lời sai !!!'
             document.getElementById('play').innerHTML = "Start game"
         }
+        document.getElementById('play').disabled  = false;
     }
     if (round === 7) {
         if (id === million7.check) {
@@ -90,6 +96,7 @@ function answer(id) {
             document.getElementById('status').innerHTML = 'Bạn trả lời sai !!!'
             document.getElementById('play').innerHTML = "Start game"
         }
+        document.getElementById('play').disabled  = false;
     }
     if (round === 8) {
         if (id === million8.check) {
@@ -103,6 +110,7 @@ function answer(id) {
             document.getElementById('status').innerHTML = 'Bạn trả lời sai !!!'
             document.getElementById('play').innerHTML = "Start game"
         }
+        document.getElementById('play').disabled  = false;
     }
     if (check) {
         audio.pause()
