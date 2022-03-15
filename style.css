@@ -1,0 +1,62 @@
+body {
+    background: url("altp.webp");
+    background-size: cover;
+    font-family: Merriweather;
+}
+h1 {
+    color: #8A2BE2;
+}
+button#answer1 {
+    border-radius: 30px 30px;
+    height:50px;
+    width:350px;
+    font-weight:bold;
+}
+button#answer2 {
+    border-radius: 30px 30px;
+    height:50px;
+    width:350px;
+    font-weight:bold;
+}
+button#answer3 {
+    border-radius: 30px 30px;
+    height:50px;
+    width:350px;
+    font-weight:bold;
+}
+button#answer4 {
+    border-radius: 30px 30px;
+    height:50px;
+    width:350px;
+    font-weight:bold;
+}
+button#question {
+    word-wrap: break-word;
+    font-size: 25px;
+    margin-bottom:20px;
+    color: #FFFFFF;
+    border-radius: 60px 60px;
+    /*-moz-border-radius: 4em 0px 4em 0px;*/
+    /*-webkit-border-radius: 4em 0px 4em 0px;*/
+    border: 0px solid #000000;
+    line-height: 100px;
+    height:100px;
+    width:700px;
+    text-align: center;
+    font-weight: bold;
+    background-color:#27ae60;
+    text-transform: capitalize;
+}
+button#score2 {
+    border-radius: 30px 30px;
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    /*margin-left: 20px;*/
+    margin-bottom: 20px;
+}
+h2 {
+    color: #F08080;
+}
+
+
