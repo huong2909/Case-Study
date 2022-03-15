@@ -48,7 +48,7 @@ function help() {
     }
 }
 function goidien() {
-    document.getElementById("status").innerHTML = "Đừng gọi bạn ơi, lên google nhanh hơn đấy"
+    document.getElementById("status").innerHTML = "Đừng gọi tốn tiền bạn ơi, lên google nhanh hơn đấy"
 }
 function  tuvan() {
     document.getElementById("status").innerHTML = "Quay sang hỏi thằng bên cạnh bạn điiii"
