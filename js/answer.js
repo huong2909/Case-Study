@@ -101,9 +101,11 @@ function answer(id) {
     if (round === 8) {
         if (id === million8.check) {
             check = true
+            round=0
             document.getElementById('play').innerHTML = 'Xin mời bạn đến với câu hỏi số: ' + nextRound;
-            document.getElementById('status').innerHTML = 'Chúc mừng bạn đã trả lời đúng'
+            document.getElementById('status').innerHTML = 'Bạn đã giành được số điểm cao nhất 10000 điểm'
             document.getElementById("score").innerHTML = "10000 Điểm"
+            document.getElementById('play').innerHTML = "Start game"
         } else {
             round = 0;
             check = false;
