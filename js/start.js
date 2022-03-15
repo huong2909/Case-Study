@@ -1,4 +1,10 @@
 function start() {
+
+    window.onload = function () {
+        twominutes = 30;
+        let x = document.getElementById("time").innerHTML
+        startTimer(twominutes,x)
+    }
     audio3.pause()
     audio.play()
     round++

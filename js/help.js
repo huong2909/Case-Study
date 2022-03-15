@@ -47,3 +47,9 @@ function help() {
         document.getElementById('50').disabled  = true;
     }
 }
+function goidien() {
+    document.getElementById("status").innerHTML = "Đừng gọi bạn ơi, lên google nhanh hơn đấy"
+}
+function  tuvan() {
+    document.getElementById("status").innerHTML = "Quay sang hỏi thằng bên cạnh bạn điiii"
+}
