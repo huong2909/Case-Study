@@ -65,6 +65,9 @@
             <td>
                 <button onclick="tuvan()" type="button" class="btn btn-primary" id="tuvan"><i class="bi bi-people"></i></button>
             </td>
+            <td>
+                <button  type="button" class="btn btn-primary" id="time">time:<span id="giay">15</span></button>
+            </td>
         </tr>
         </tbody>
         </table>
@@ -92,4 +95,29 @@
     function sound(){
         audio3.play()
     }
+
+    let thoiluong =0;
+    function thoigian(x){
+        thoiluong = x;
+        demnguoc();
+    }
+    function demnguoc(){
+        thoiluong--;
+        sogiay = thoiluong%60;
+        document.getElementById("giay").innerHTML = sogiay;
+        if (thoiluong>0) {
+            timeoutID = setTimeout(demnguoc, 1000)
+        } else {
+            round =0;
+            audio.pause()
+            document.getElementById('play').disabled  = false;
+            console.log(round)
+            document.getElementById("status").innerHTML ="Hết giờ rồi, bạn đã thua"
+            document.getElementById('play').innerHTML = "Start game"
+        }
+    }
+    function clearTime() {
+        clearTimeout(timeoutID);
+    }
+
 </script>
